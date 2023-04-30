@@ -49,7 +49,7 @@ You need to run the python file in order to see the output of the model on the w
 
 To use the face recognition and attendance system, follow these steps:
 
->Create a folder called dataset in the root directory of the project.
+>Create a folder called dataset in the AI/ML directory of the project.
 
 >Add subfolders to the dataset folder with the names of the individuals you want to recognize.
 
