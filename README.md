@@ -49,17 +49,7 @@ You need to run the python file in order to see the output of the model on the w
 
 To use the face recognition and attendance system, follow these steps:
 
->Create a folder called dataset in the AI/ML directory of the project.
-
->Add subfolders to the dataset folder with the names of the individuals you want to recognize.
-
->For example, if you want to recognize John Doe and Jane Smith, create two subfolders called John Doe and Jane Smith within the dataset folder.
-
->Add images of each individual to their respective subfolders.
-
->It is recommended to have at least 5-10 images of each individual.
-
->Run the following command to train the model:
+>Download the code and extract the zip file.
 
 **For macOs/Linux**
 
@@ -74,9 +64,13 @@ Run the following codes to initialize the process:
 
 `conda activate env_dlib`
 
+>Go to the directory where the model is loacted, using the cd <path> command.
+
 `conda install -c conda-forge dlib`
 
 `python main2.py`
+
+>place the photos of the faces to be detected infront of the camera. It should detect the faces and the same should be updated in the website mentioned earlier.
 
 
 The system will open the webcam and start recognizing faces. If a recognized face matches one of the individuals in the dataset folder, the system will mark their attendance along with the time-stamp. This attendance is then saved in a .csv file.
